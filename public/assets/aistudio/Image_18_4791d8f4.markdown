@@ -1,0 +1,207 @@
+---
+name: Warm & Thoughtful Pet Care
+colors:
+  surface: '#f9f9ff'
+  surface-dim: '#cfdaf2'
+  surface-bright: '#f9f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f0f3ff'
+  surface-container: '#e7eeff'
+  surface-container-high: '#dee8ff'
+  surface-container-highest: '#d8e3fb'
+  on-surface: '#111c2d'
+  on-surface-variant: '#56423c'
+  inverse-surface: '#263143'
+  inverse-on-surface: '#ecf1ff'
+  outline: '#8a726a'
+  outline-variant: '#ddc0b8'
+  surface-tint: '#a0401c'
+  primary: '#9d3e1a'
+  on-primary: '#ffffff'
+  primary-container: '#bd5530'
+  on-primary-container: '#fffbff'
+  inverse-primary: '#ffb59d'
+  secondary: '#39684a'
+  on-secondary: '#ffffff'
+  secondary-container: '#bbefc9'
+  on-secondary-container: '#3f6e50'
+  tertiary: '#8d4b00'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#b15f00'
+  on-tertiary-container: '#fffbff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdbd0'
+  primary-fixed-dim: '#ffb59d'
+  on-primary-fixed: '#390c00'
+  on-primary-fixed-variant: '#802906'
+  secondary-fixed: '#bbefc9'
+  secondary-fixed-dim: '#a0d2ae'
+  on-secondary-fixed: '#00210f'
+  on-secondary-fixed-variant: '#215034'
+  tertiary-fixed: '#ffdcc3'
+  tertiary-fixed-dim: '#ffb77d'
+  on-tertiary-fixed: '#2f1500'
+  on-tertiary-fixed-variant: '#6e3900'
+  background: '#f9f9ff'
+  on-background: '#111c2d'
+  surface-variant: '#d8e3fb'
+typography:
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 30px
+    fontWeight: '700'
+    lineHeight: 38px
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.03em
+  time-display:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '700'
+    lineHeight: 20px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.875rem
+  space-lg: 1.25rem
+  space-xl: 1.75rem
+---
+
+## Brand & Style
+The design system combines the clinical precision of professional salon operations with the reassuring warmth of premium pet hospitality. It bridges two distinct user mindsets: pet parents seeking safety, tenderness, and transparency for their companions; and professional groomers requiring high-density, ergonomic scheduling, intake tracking, and signature verification.
+
+The visual style blends **Modern Organic Tactility** with **Clean Ergonomic Utility**:
+- **Warmth over Clinical Coldness:** Rich cream backdrops and terracotta warmth replace sterile, icy medical tones, evoking a boutique, spa-like atmosphere.
+- **Friendly Authority:** Rounded geometry, generous tap targets, and soft ambient shading remove intimidation from veterinary-grade intake checklists and payment forms.
+- **Dual-Mode Mental Shift:** Subtle spatial cues effortlessly transition the interface between the parent-facing booking path (calm, visual, reassuring) and the groomer workbench (dense, clear, schedule-optimized).
+
+## Colors
+The palette balances cozy hospitality with immediate operational legibility:
+
+- **Primary (`#D96A43` Terracotta Clay):** Used for focal interactive drivers, primary booking confirmations, active timeline steps, and highlight badges. Communicates warmth, craft, and heartfelt care without the alarmist nature of pure red.
+- **Secondary (`#4D7C5D` Calming Botanical Sage):** Serves as the primary indicator for confirmed bookings, completed grooming stages, healthy pet vitals, and verified intake releases.
+- **Tertiary (`#D97706` Warm Amber):** Reserved for contextual grooming notices, special handling notes (e.g., matted coat alerts, senior dog care requirements), and pending waitlist states.
+- **Neutral (`#1E293B` Slate Charcoal):** Provides deep, high-contrast readability for microcopy, schedule timestamps, breed identifiers, and client records.
+- **Canvas & Surface Tiering:**
+  - Base canvas: `#FBF9F5` (Oat Cream) delivers a restful, paper-like background.
+  - Surface elevated: `#FFFFFF` (Pure Studio White) for distinct cards, sheets, and timeline blocks.
+  - Subtle borders: `#EFE9DF` to softly separate modular sections without visual noise.
+
+## Typography
+Plus Jakarta Sans is utilized uniformly across headlines, content, and interface tags to maintain a harmonious, geometric, and softly rounded character.
+
+- **Chinese / Latin Pairings:** Pair with standard sans-serif system fallbacks (`PingFang TC`, `Noto Sans TC`) ensuring clean font weights and natural line rhythm across Traditional Chinese pet terminology and timestamps.
+- **Hierarchy Rules:** Pet names and primary status updates must always leverage semibold or bold weights (`headline-sm` or `label-lg`) to remain identifiable during high-pace salon operations.
+- **Numerical Treatment:** Timestamps, pricing tiers, and weight measurements use tabular spacing numbers for clean alignment in scheduling grids.
+
+## Layout & Spacing
+The layout model is tailored specifically for handheld touch interactions:
+
+- **Mobile Viewport Structure:** Standard outer gutter and canvas padding is anchored at `1rem` (16px), giving cards full breathing room without squishing dense pet profile data.
+- **Vertical Rhythm:** A cohesive 4px-derived vertical baseline ensures predictable stacking between service packages, pet intake notes, and timeline nodes.
+- **Touch Ergonomics:** High-priority actions (instant rebooking, emergency contact, signature clearing) live within a 48px to 56px bottom-sheet anchor zone, easily reachable with single-handed thumb operation.
+
+## Elevation & Depth
+Depth relies on soft sunlight-tinted ambient shadows layered on pure white cards, avoiding hard artificial drop shadows:
+
+- **Surface Level 0 (Base):** Oat Cream (`#FBF9F5`) un-elevated background.
+- **Surface Level 1 (Card Rest):** Pure White (`#FFFFFF`) with a 1px soft border in `#EFE9DF` and a gentle warm drop shadow: `0 2px 8px -2px rgba(66, 45, 23, 0.05), 0 1px 3px 0 rgba(66, 45, 23, 0.03)`.
+- **Surface Level 2 (Active Grooming Node / Floating Pill):** Elevated cards, sticky appointment summaries, and active filters use `0 8px 20px -4px rgba(66, 45, 23, 0.08), 0 3px 6px -2px rgba(66, 45, 23, 0.04)`.
+- **Surface Level 3 (Modal Bottom Sheets & Signature Pad Overlay):** `0 20px 32px -8px rgba(30, 41, 59, 0.14)`.
+
+## Shapes
+The shape language is warm, soft, and tactile, matching the nurturing nature of pet care:
+
+- **Standard Containers & Cards:** Use `rounded-2xl` (16px) for cards, dialogs, and media enclosures to prevent rigid clinic vibes.
+- **Interactive Buttons & Form Fields:** Standardized on `rounded-xl` (12px) for structured, confident touch areas.
+- **Badges, Filter Chips & Role Switches:** Use fully rounded pill silhouettes (`rounded-full`) for tactile feedback and effortless thumb-tapping.
+
+## Components
+
+### Dual-Mode Role Toggle (Owner / Groomer Workbench)
+- Segmented container styled as a pill in `#EFE9DF` with 4px internal padding.
+- Selected state: Pure white floating chip with soft ambient shadow and rich terracotta typography (`#D96A43`).
+- Inactive state: Soft Slate Charcoal (`#64748B`), transparent background.
+
+### Buttons
+- **Primary:** Filled in Terracotta (`#D96A43`), white label, height of 48px, `rounded-xl`, subtle active scale down (`0.98`).
+- **Secondary / Actionable:** Sage Green (`#4D7C5D`) for positive completions (e.g., "Confirm Grooming Done", "Send Check-in Photo").
+- **Ghost / Tertiary:** Transparent background, 1.5px border in `#EFE9DF`, text `#1E293B`.
+
+### Scheduling Timeline Component
+- Vertical chronological spine in `#EFE9DF`.
+- Timeline nodes feature circular status indicators:
+  - *Completed (Bath/Dry):* Sage Green check with faint green background halo.
+  - *In Progress (Styling/Trimming):* Pulsing Terracotta ring with white center.
+  - *Upcoming (Pickup Ready):* Muted slate border with white core.
+- Time tags are styled in bold mono-aligned numerals adjacent to the service card.
+
+### Signature Pad
+- Smooth canvas surface in pure white `#FFFFFF` bordered by a 1.5px dashed warm outline (`#CBD5E1`).
+- Contains a clear baseline guide and subtle pet paw watermark watermark in 5% opacity.
+- Action bar fixed underneath with "Clear" text link and "Confirm Sign-off" primary button.
+
+### Intake Chips & Pet Tag Badges
+- Pill-shaped chips (`rounded-full`) with light tonal backgrounds:
+  - *Temperament Warnings (e.g., Nervous with clippers):* Warm Amber tint (`#FEF3C7`) with `#92400E` text.
+  - *Breed & Size Indicator:* Warm Stone tint (`#F1EFEA`) with `#334155` text.
+  - *Vaccination Verified:* Soft Sage tint (`#DCFCE7`) with `#166534` text.
+
+### Inputs & Selection Cards
+- Form inputs feature floating labels, 1.5px border `#E2E8F0`, transitioning to a warm Terracotta glow on focus (`outline: 2px solid rgba(217, 106, 67, 0.2)`).
+- Selection tiles for service add-ons (spa treatment, paw balm, deshedding) include thumbnail imagery, service title, pricing, and a custom circular checkbox.

@@ -1,0 +1,6 @@
+{
+  "name": "PawOxySpa 寵物摩氧浴",
+  "description": "頂級微氣泡沙龍預約與美容師工作台 - 專業排程、毛孩照護履歷與數位合約",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
